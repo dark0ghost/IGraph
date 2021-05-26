@@ -1,0 +1,3 @@
+add_library(libListGraph SHARED include src/ListGraph.cpp)
+target_include_directories(libListGraph PUBLIC include)
+target_link_libraries(libListGraph libIGraph)

@@ -1,0 +1,3 @@
+add_library(libIGraph SHARED include)
+target_include_directories(libIGraph PUBLIC include)
+set_target_properties(libIGraph PROPERTIES LINKER_LANGUAGE CXX)
