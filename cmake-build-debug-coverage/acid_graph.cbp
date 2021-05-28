@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="acid_graph"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\IGraph\;CMake Files\ListGraph\;CMake Files\MatrixGraph\;CMake Files\SetGraph\;CMake Files\ArcGraph\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acid_graph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/acid_graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ListGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/home/project/acid_graph/MatrixGraph/include"/>
+					<Add directory="/home/project/acid_graph/SetGraph/include"/>
+					<Add directory="/home/project/acid_graph/ArcGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 acid_graph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acid_graph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/acid_graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ListGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/home/project/acid_graph/MatrixGraph/include"/>
+					<Add directory="/home/project/acid_graph/SetGraph/include"/>
+					<Add directory="/home/project/acid_graph/ArcGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 acid_graph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libIGraph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/IGraph/liblibIGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/IGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 libIGraph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libIGraph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/IGraph/liblibIGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/IGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 libIGraph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/IGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libListGraph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/liblibListGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/ListGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ListGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 libListGraph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libListGraph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/liblibListGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/ListGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ListGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 libListGraph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libMatrixGraph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/liblibMatrixGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/MatrixGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 libMatrixGraph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libMatrixGraph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/liblibMatrixGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/MatrixGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 libMatrixGraph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/MatrixGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libSetGraph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/liblibSetGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/SetGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/SetGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 libSetGraph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libSetGraph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/liblibSetGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/SetGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/SetGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 libSetGraph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/SetGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libArcGraph">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/liblibArcGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ArcGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 libArcGraph"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libArcGraph/fast">
+				<Option output="/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/liblibArcGraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/project/acid_graph/ArcGraph/include"/>
+					<Add directory="/home/project/acid_graph/IGraph/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 libArcGraph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/project/acid_graph/cmake-build-debug-coverage/ArcGraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/project/acid_graph/ArcGraph/include">
+			<Option target="libArcGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/ArcGraph/src/ArcGraph.cpp">
+			<Option target="libArcGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/IGraph/include">
+			<Option target="libIGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/ListGraph/include">
+			<Option target="libListGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/ListGraph/src/ListGraph.cpp">
+			<Option target="libListGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/MatrixGraph/include">
+			<Option target="libMatrixGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/MatrixGraph/src/MatrixGraph.cpp">
+			<Option target="libMatrixGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/SetGraph/include">
+			<Option target="libSetGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/SetGraph/src/SetGraph.cpp">
+			<Option target="libSetGraph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/main.cpp">
+			<Option target="acid_graph"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/IGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IGraph\"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/ListGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ListGraph\"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/MatrixGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MatrixGraph\"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/SetGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SetGraph\"/>
+		</Unit>
+		<Unit filename="/home/project/acid_graph/ArcGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ArcGraph\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

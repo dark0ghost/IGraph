@@ -1,0 +1,33 @@
+        -:    0:Source:/home/project/acid_graph/IGraph/include/IGraph.h
+        -:    0:Graph:/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/CMakeFiles/libListGraph.dir/src/ListGraph.cpp.gcno
+        -:    0:Data:/home/project/acid_graph/cmake-build-debug-coverage/ListGraph/CMakeFiles/libListGraph.dir/src/ListGraph.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by dark0ghost on 26.05.2021.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef ACID_GRAPH_IGRAPH_H
+        -:    6:#define ACID_GRAPH_IGRAPH_H
+        -:    7:
+        -:    8:#include <vector>
+        -:    9:
+        -:   10:struct IGraph {
+    #####:   11:    virtual ~IGraph() {}
+------------------
+_ZN6IGraphD0Ev:
+function _ZN6IGraphD0Ev called 0 returned 0% blocks executed 0%
+    #####:   11:    virtual ~IGraph() {}
+    %%%%%:   11-block  0
+call    0 never executed
+call    1 never executed
+------------------
+_ZN6IGraphD2Ev:
+function _ZN6IGraphD2Ev called 0 returned 0% blocks executed 0%
+    #####:   11:    virtual ~IGraph() {}
+------------------
+        -:   12:    virtual void AddEdge(int from, int to) = 0;
+        -:   13:    virtual int VerticesCount() const  = 0;
+        -:   14:    virtual std::vector<int> GetNextVertices(int vertex) const = 0;
+        -:   15:    virtual std::vector<int> GetPrevVertices(int vertex) const = 0;
+        -:   16:};
+        -:   17:#endif //ACID_GRAPH_IGRAPH_H

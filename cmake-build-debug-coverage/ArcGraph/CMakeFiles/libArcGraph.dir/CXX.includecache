@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ArcGraph/include/Element.h
+
+../IGraph/include/IGraph.h
+vector
+-
+
+/home/project/acid_graph/ArcGraph/include/ArcGraph.h
+IGraph.h
+-
+Element.h
+-
+
+/home/project/acid_graph/ArcGraph/src/ArcGraph.cpp
+../include/ArcGraph.h
+/home/project/acid_graph/ArcGraph/include/ArcGraph.h
+

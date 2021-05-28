@@ -1,0 +1,3 @@
+add_library(libMatrixGraph SHARED include src/MatrixGraph.cpp)
+target_include_directories(libMatrixGraph  PUBLIC include)
+target_link_libraries(libMatrixGraph libIGraph)

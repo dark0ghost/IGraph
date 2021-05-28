@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../IGraph/include/IGraph.h
+vector
+-
+
+../SetGraph/include/SetGraph.h
+vector
+-
+unordered_set
+-
+IGraph.h
+-
+
+/home/project/acid_graph/SetGraph/src/SetGraph.cpp
+IGraph.h
+-
+SetGraph.h
+/home/project/acid_graph/SetGraph/src/SetGraph.h
+

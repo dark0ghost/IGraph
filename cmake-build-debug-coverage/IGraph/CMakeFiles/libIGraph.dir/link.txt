@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC --coverage -g -shared -Wl,-soname,liblibIGraph.so -o liblibIGraph.so 

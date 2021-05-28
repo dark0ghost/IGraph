@@ -1,0 +1,73 @@
+        -:    0:Source:/home/project/acid_graph/main.cpp
+        -:    0:Graph:/home/project/acid_graph/cmake-build-debug-coverage/CMakeFiles/acid_graph.dir/main.cpp.gcno
+        -:    0:Data:/home/project/acid_graph/cmake-build-debug-coverage/CMakeFiles/acid_graph.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <ListGraph.h>
+        -:    2:#include <SetGraph.h>
+        -:    3:#include <ArcGraph.h>
+        -:    4:#include <MatrixGraph.h>
+        -:    5:
+        -:    6:constinit int size = 10;
+        -:    7:
+function main called 1 returned 100% blocks executed 59%
+        1:    8:int main() {
+        2:    9:    ListGraph listGraph(size);
+        1:    9-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:    9-block  1
+call    4 never executed
+        2:   10:    SetGraph setGraph(size);
+        1:   10-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   10-block  1
+call    4 never executed
+        2:   11:    ArcGraph arcGraph(size);
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   11-block  1
+call    4 never executed
+        2:   12:    MatrixGraph matrixGraph(size);
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   12-block  1
+call    4 never executed
+        -:   13:
+        2:   14:    ListGraph copyListGraph(setGraph);
+        1:   14-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   14-block  1
+call    4 never executed
+        -:   15:    [[maybe_unused]] SetGraph copySetGraph(MatrixGraph);
+        2:   16:    ArcGraph copyArcGraph(setGraph);
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   16-block  1
+call    4 never executed
+        1:   17:    MatrixGraph copyMatrixGraph(arcGraph);
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   18:
+        1:   19:    return 0;
+        1:   19-block  0
+call    0 returned 1
+        -:   20:}
