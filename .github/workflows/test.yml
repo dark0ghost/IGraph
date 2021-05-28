@@ -7,5 +7,13 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
+      - name: Install gtest manually
+        run: sudo apt-get install libasio-dev libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp ./lib/libgtest*.a /usr/lib  && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+      - uses: actions/checkout@v2
+      - name: covarage
+        uses: romeovs/lcov-reporter-action@v0.2.16
+        with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            lcov-file: ./coverage/lcov.info
       - name: Run codecov
         run: cd .. && bash <(curl -s https://codecov.io/bash)
