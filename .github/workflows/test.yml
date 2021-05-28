@@ -1,0 +1,11 @@
+name: Build
+
+on:  [pull_request, push]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Run codecov
+        run: cd .. && bash <(curl -s https://codecov.io/bash)
