@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC --coverage -g -shared -Wl,-soname,liblibArcGraph.so -o liblibArcGraph.so CMakeFiles/libArcGraph.dir/src/ArcGraph.cpp.o  -Wl,-rpath,/home/project/acid_graph/cmake-build-debug-coverage/IGraph ../IGraph/liblibIGraph.so 

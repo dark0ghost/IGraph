@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC --coverage -g -shared -Wl,-soname,liblibSetGraph.so -o liblibSetGraph.so CMakeFiles/libSetGraph.dir/src/SetGraph.cpp.o  -Wl,-rpath,/home/project/acid_graph/cmake-build-debug-coverage/IGraph ../IGraph/liblibIGraph.so 

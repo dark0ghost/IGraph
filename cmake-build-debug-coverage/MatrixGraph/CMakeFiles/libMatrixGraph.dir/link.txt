@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC --coverage -g -shared -Wl,-soname,liblibMatrixGraph.so -o liblibMatrixGraph.so CMakeFiles/libMatrixGraph.dir/src/MatrixGraph.cpp.o  -Wl,-rpath,/home/project/acid_graph/cmake-build-debug-coverage/IGraph ../IGraph/liblibIGraph.so 

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC --coverage -g -shared -Wl,-soname,liblibListGraph.so -o liblibListGraph.so CMakeFiles/libListGraph.dir/src/ListGraph.cpp.o  -Wl,-rpath,/home/project/acid_graph/cmake-build-debug-coverage/IGraph ../IGraph/liblibIGraph.so 
